@@ -8,7 +8,7 @@ export const UserStore = (props) => {
   const AsyncStorage = useAsyncStorage();
   useEffect(() => {}, []);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
-  const [isLoading, setisLoading] = useState(true);
+  const [isLoading, setisLoading] = useState(false);
 
   const [username, setUsername] = useState(null);
   const [email, setemail] = useState(null);
